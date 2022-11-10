@@ -12,7 +12,7 @@ Console.WriteLine("Bom dia!");
 
 
 using System;
-using System.Globalization;
+using System.Globalization; /* Para usar o CultureInfo.InvariantCulture para trocar a vírgula por ponto */
 namespace Curso {
 class Program {
 static void Main(string[] args) {
