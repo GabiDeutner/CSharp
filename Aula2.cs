@@ -1,3 +1,11 @@
+/*
+Anotações do Curso:
+Curso: Lógica de Programação e Algoritmos em C#
+https://www.udemy.com/user/nelio-alves
+Prof. Dr. Nelio Alves
+*/
+
+
 /* Exemplo 1 */
 
 using System;
