@@ -26,8 +26,9 @@ namespace Curso
             /* o Console.ReadLine lê a entrada como string, então precisamos de conversões para os outros tipos */
             int n1 = int.Parse(Console.ReadLine()); /* int.Parse converte string para int*/
             char ch = char.Parse(Console.ReadLine()); /* char.Parse converte de string para char*/
-            double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); string[] vet = Console.ReadLine().Split(' ');
+            double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); 
             /* double.Parse converte string para double*/
+            string[] vet = Console.ReadLine().Split(' ');
             string nome = vet[0];
             char sexo = char.Parse(vet[1]);   
             int idade = int.Parse(vet[2]);   
