@@ -1,5 +1,10 @@
 /* 
 
+Anotações do Curso:
+Curso: Lógica de Programação e Algoritmos em C#
+https://www.udemy.com/user/nelio-alves
+Prof. Dr. Nelio Alves
+
 Para escrever na tela um texto qualquer
 
 Sem quebra de linha ao final:
