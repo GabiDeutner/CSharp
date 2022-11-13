@@ -1,0 +1,11 @@
+Anotações do Curso:
+Curso: Lógica de Programação e Algoritmos em C#
+https://www.udemy.com/user/nelio-alves
+Prof. Dr. Nelio Alves
+
+
+Como executar o debug do Visual Studio
+• Para marcar uma linha de breakpoint: Depurar -> Alternar ponto de interrupção (F9) 
+• Para iniciar o debug: Depurar -> Iniciar depuração (F5) 
+• Para executar uma linha: F10
+• Para interromper o debug: SHIFT + F5
