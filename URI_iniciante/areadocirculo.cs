@@ -1,15 +1,17 @@
-using System; 
+using System;
+using System.Globalization;
 
-class URI {
+namespace uri1002 {
+    class Program {
+        static void Main(string[] args) {
 
-    static void Main(string[] args) { 
+            double raio, A, π = 3.14159;
 
-        double area, n, raio;
-        n = 3.14159;
-        raio = double.Parse(Console.ReadLine());
-        area = n * raio * raio;
-        Console.WriteLine("A = " + area.ToString("F4"));
+            raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
+            A = π * raio * raio;
+
+            Console.WriteLine("A=" + A.ToString("F4", CultureInfo.InvariantCulture));
+        }
     }
-
 }
