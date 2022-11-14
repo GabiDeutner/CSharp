@@ -10,3 +10,25 @@ Apresente o valor que representa o consumo médio do automóvel com 3 casas apó
 
 */
 
+using System;
+using System.Globalization;
+
+namespace uri1014
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int X;
+            double Y, valor;
+            X = int.Parse(Console.ReadLine());
+            Y = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            valor = (double)X / Y;
+
+            Console.WriteLine(valor.ToString("F3", CultureInfo.InvariantCulture) + "km/l");
+
+        }
+    }
+}
